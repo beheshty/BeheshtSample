@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Behesht.Domain.CatalogSample\Behesht.Domain.CatalogSample.csproj" />
+    <ProjectReference Include="..\Behesht.Data\Behesht.Data.csproj" />
+  </ItemGroup>
+
+</Project>

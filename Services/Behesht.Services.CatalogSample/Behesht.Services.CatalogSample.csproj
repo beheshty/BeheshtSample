@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Behesht.Core.Logger\Behesht.Core.Logger.csproj" />
+    <ProjectReference Include="..\..\Data\Behesht.Data.CatalogSample\Behesht.Data.CatalogSample.csproj" />
+    <ProjectReference Include="..\..\Domain\Behesht.Domain.CatalogSample\Behesht.Domain.CatalogSample.csproj" />
+    <ProjectReference Include="..\Behesht.Services\Behesht.Services.csproj" />
+  </ItemGroup>
+
+</Project>
