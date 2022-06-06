@@ -76,7 +76,7 @@ namespace Behesht.Services
             var entity = _repository.FindById(model.Id);
             if (entity == null)
             {
-                throw new KeyNotFoundException($"id {model.Id} not found for {nameof(TEntity)}");
+                throw new KeyNotFoundException($"{model.Id} Id not found for {nameof(TEntity)}");
             }
 
             _mapper.Map<TModel, TEntity>(model, entity);
