@@ -16,7 +16,7 @@ all parameters are optional, default parameters are as the following:
 
 values for searchType:
 - searchType=1: execute a like search on all columns (or on a specific column if used in column filters)
-- searchType=2: execute an exact search on all columns (or on a specific column if used in column filters)
+- searchType=2: execute an exact match search on all columns (or on a specific column if used in column filters)
 
 _______________________________
 
